@@ -38,6 +38,8 @@ public class sample {
            System.exit(1);
       }else{
            System.out.println("Successfuly logged in");
+           
+           System.out.println("Sustem is seccussfully loged into the account");
       }
       File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
       FileUtils.copyFile(screenshotFile, new File("C:\\screenshots"));
