@@ -53,7 +53,7 @@ public class sample {
 		}
         driver.findElement(By.xpath("//*[@id=\"dropdownMenu2\"]")).click();
         driver.findElement(By.xpath("//*[@id=\"navbarCollapse\"]/div/div/div/button[2]")).click();
-      
+       thread.sleep(2000);
     driver.quit();
    }
 }
