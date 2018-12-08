@@ -17,6 +17,8 @@ public class NewTest {
 	     
       WebDriver driver = new FirefoxDriver();
 //      driver.manage().window().maximize();
+    
+     driver.get("Rest Call.com");
       driver.get("https://google.com");
   }}
       
